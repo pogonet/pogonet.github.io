@@ -38,11 +38,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -677,70 +677,6 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-t2faBgVSX7 {
-  background-image: url("../../../assets/images/swiatlowod-1-ju5d1z3g-1747x1165.jpeg");
-}
-.cid-t2faBgVSX7 .mbr-text,
-.cid-t2faBgVSX7 .mbr-section-btn {
-  text-align: right;
-  color: #000000;
-}
-.cid-s48MCQYojq {
-  background-image: url("../../../assets/images/background7.jpg");
-}
-.cid-s48MCQYojq .mbr-section-title {
-  text-align: center;
-}
-.cid-s48MCQYojq .mbr-text,
-.cid-s48MCQYojq .mbr-section-btn {
-  color: #232323;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  .cid-s48MCQYojq .mbr-section-title,
-  .cid-s48MCQYojq .mbr-section-btn,
-  .cid-s48MCQYojq .mbr-text {
-    text-align: center;
-  }
-}
-.cid-s48udlf8KU {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  background-color: #ffffff;
-}
-.cid-s48udlf8KU .mbr-section-title {
-  text-align: left;
-}
-.cid-s48udlf8KU .mbr-section-subtitle {
-  text-align: left;
-}
-.cid-s48vrXhP0J {
-  padding-top: 2rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-s48vrXhP0J .mbr-section-title {
-  text-align: left;
-}
-.cid-s48vrXhP0J .mbr-section-subtitle {
-  text-align: left;
-}
-.cid-s48upRUlSD {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-s48upRUlSD .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-s48upRUlSD .row {
-  flex-direction: row-reverse;
-}
-.cid-s48upRUlSD img {
-  width: 100%;
-}
 .cid-s48OLK6784 {
   z-index: 1000;
   width: 100%;
@@ -1083,6 +1019,70 @@ a {
     left: -1rem;
   }
 }
+.cid-t2faBgVSX7 {
+  background-image: url("../../../assets/images/swiatlowod-1-ju5d1z3g-1747x1165.jpeg");
+}
+.cid-t2faBgVSX7 .mbr-text,
+.cid-t2faBgVSX7 .mbr-section-btn {
+  text-align: right;
+  color: #fafafa;
+}
+.cid-s48MCQYojq {
+  background-image: url("../../../assets/images/background7.jpg");
+}
+.cid-s48MCQYojq .mbr-section-title {
+  text-align: center;
+}
+.cid-s48MCQYojq .mbr-text,
+.cid-s48MCQYojq .mbr-section-btn {
+  color: #232323;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .cid-s48MCQYojq .mbr-section-title,
+  .cid-s48MCQYojq .mbr-section-btn,
+  .cid-s48MCQYojq .mbr-text {
+    text-align: center;
+  }
+}
+.cid-s48udlf8KU {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-s48udlf8KU .mbr-section-title {
+  text-align: left;
+}
+.cid-s48udlf8KU .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-s48vrXhP0J {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-s48vrXhP0J .mbr-section-title {
+  text-align: left;
+}
+.cid-s48vrXhP0J .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-s48upRUlSD {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-s48upRUlSD .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-s48upRUlSD .row {
+  flex-direction: row-reverse;
+}
+.cid-s48upRUlSD img {
+  width: 100%;
+}
 .cid-t2k5F97xai {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -1172,4 +1172,19 @@ a {
 .cid-t2k5F97xai .list {
   list-style-type: none;
   padding: 0;
+}
+.cid-u33xAn868z {
+  background-image: url("../../../assets/images/background13.jpg");
+}
+.cid-u33xAn868z .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u33xAn868z .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
